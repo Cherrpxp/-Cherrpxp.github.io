@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import google.generativeai as genai  # ✅ เปลี่ยนจาก requests เป็น SDK
+import google.generativeai as genai 
 import json
 from datetime import datetime
 import calendar
@@ -382,4 +382,5 @@ st.markdown("""
     <p>🔮 <b>ดูดวง กับแม่หมอสมดุ๋ย</b> | Powered by Google Gemini AI</p>
     <p style='font-size: 12px;'>⚠️ ผลการทำนายเพื่อความบันเทิงเท่านั้น ไม่ควรนำไปตัดสินใจเรื่องสำคัญ</p>
 </div>
+
 """, unsafe_allow_html=True)
